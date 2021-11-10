@@ -100,7 +100,6 @@ services:
     restart: always
   keycloak:
     image: quay.io/keycloak/keycloak:15.0.2
-    restart: always
     environment:
       KEYCLOAK_USER: proyek3
       KEYCLOAK_PASSWORD: proyek3
